@@ -1,0 +1,79 @@
+@import url(../font/roboto.css);
+body {
+  background-color: #333;
+  background-image: url(../img/choose-a-pill.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #f0f0f0;
+  font-family: 'roboto', sans-serif;
+}
+
+.time-to-choose {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.welcome {
+  margin-top: 2rem;
+}
+
+.you-are-lost {
+  text-align: center;
+}
+
+.choose-pill {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.the-blue-pill, .the-red-pill {
+  min-width: 320px;
+  margin-bottom: 2rem;
+}
+
+.the-blue-pill__title, .the-red-pill__title {
+  text-align: center;
+}
+
+.the-blue-pill__title {
+  color: blue;
+}
+
+.the-red-pill__title {
+  color: red;
+}
+
+.take-the-blue-pill, .take-the-red-pill {
+  list-style-type: none;
+}
+
+.back-to-blissful-ignorance-of-illusion, .truth-of-reality {
+  display: flex;
+  flex-direction: column;
+}
+
+.remember-all-im-offering-is-the-truth-nothing-more {
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+
+.remember-all-im-offering-is-the-truth-nothing-more:hover {
+  color: white;
+  background-color: #006700;
+}
+
+.heartless-tagline {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.map.css */
