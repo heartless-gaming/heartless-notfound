@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(../font/roboto.css);
 body {
   background-color: #333;
@@ -6,6 +7,17 @@ body {
   background-position: center;
   color: #f0f0f0;
   font-family: 'roboto', sans-serif;
+  font-size: 1.8rem;
+}
+
+a  {
+  color: #2222ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000dd;
+  text-decoration: underline;
 }
 
 .time-to-choose {
@@ -69,6 +81,17 @@ body {
 .remember-all-im-offering-is-the-truth-nothing-more:hover {
   color: white;
   background-color: #006700;
+}
+
+.the-architect {
+  max-width: 666px;
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.keep-on-rockin-in-the-free-world {
+  padding-left: 1em;
 }
 
 .heartless-tagline {

@@ -7,6 +7,17 @@ body {
   background-position: center;
   color: #f0f0f0;
   font-family: 'roboto', sans-serif;
+  font-size: 1.8rem;
+}
+
+a {
+  color: lighten(blue, 6.66);
+  text-decoration: none;
+}
+
+a:hover {
+  color: darken(blue, 6.66);
+  text-decoration: underline;
 }
 
 .time-to-choose {
@@ -70,6 +81,17 @@ body {
     color: white;
     background-color: darken(green, 5);
   }
+}
+
+.the-architect {
+  max-width: 666px;
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.keep-on-rockin-in-the-free-world {
+  padding-left: 1em;
 }
 
 .heartless-tagline {
