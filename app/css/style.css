@@ -38,8 +38,14 @@ a:hover {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+@media screen and (min-width: 666px) {
+  .choose-pill {
+    flex-direction: row;
+  }
 }
 
 .the-blue-pill, .the-red-pill {
@@ -79,8 +85,16 @@ a:hover {
 }
 
 .remember-all-im-offering-is-the-truth-nothing-more:hover {
+  text-decoration: none;
   color: white;
   background-color: #006700;
+}
+
+@media screen and (min-width: 666px) {
+  .remember-all-im-offering-is-the-truth-nothing-more {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
 }
 
 .the-architect {
