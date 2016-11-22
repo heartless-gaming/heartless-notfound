@@ -23,14 +23,8 @@ let buildFolderNameImg = 'img'
 let fontFolderName = 'font'
 let cssFileName = 'style.css'
 let jsFileName = 'script.js'
-let extraFilesToCopy = [
-  'contact.php',
-  'about.html'
-]
-let extraFolderToCopy = [
-  'inc',
-  'template-parts'
-]
+let extraFilesToCopy = []
+let extraFolderToCopy = []
 
 /*
  * You should not have to edit stuff beyond this warning
