@@ -44,7 +44,7 @@ a:hover {
 
 @media screen and (min-width : 666px) {
   .choose-pill{
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 
@@ -52,6 +52,7 @@ a:hover {
   min-width: 320px;
   margin-bottom: 2rem;
 }
+
 
 .the-blue-pill__title, .the-red-pill__title {
   text-align: center;
@@ -96,6 +97,7 @@ a:hover {
     margin-left: 3rem;
   }
 }
+
 .the-architect {
   max-width: 666px;
   margin-top: 3rem;

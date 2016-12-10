@@ -44,7 +44,7 @@ a:hover {
 
 @media screen and (min-width: 666px) {
   .choose-pill {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 
